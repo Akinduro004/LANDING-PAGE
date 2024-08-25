@@ -1,0 +1,54 @@
+.body{
+  background-color: #2B2B2B;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 30px;
+}
+.logo img{
+  width: 50%;
+}
+.buttons button{
+  border-radius: 15px;
+  height: 35px;
+  width: 120px;
+}
+.signup{
+  background-color: #2B2B2B;
+  border: none;
+  color: white;
+  margin-right: 20px;
+}
+.signup:hover {
+ border-bottom: 3px solid #BFAFF2;
+ transition:  0.3s ease-in;
+}
+.login{
+  background-color: #BFAFF2;
+}
+.login:hover {
+  border-bottom: 3px solid #BFAFF2;
+  background-color: #2B2B2B;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: 1s;
+ }
+.image img{
+  width: 100%;
+}
+@media only screen and (max-width:989px) {
+  .buttons button {
+    display: none;
+  }
+}
+@media only screen and (max-width:989px) {
+  .sendbutton {
+  margin-top: 20px;
+  width: 200%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  /* styles here */
+}
+
